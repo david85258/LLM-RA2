@@ -37,7 +37,38 @@
                 <img src="img/Claude_AI_symbol.svg" alt="Logo de Claude" height="100px" title="Claude">
             </article>
         </section>
-        <section></section>
+        <section>
+            <h2>Deja tu valoracion</h2>
+            <form action="submit" method="post">
+                <label for="nom">Nombre:</label>
+                <input type="text" name="nom" placeholder="Escribe tu nombre">
+                <br><br>
+                <label for="email">Correo electronico:</label>
+                <input type="email" name="email" placeholder="ejemplo@gmail.com">
+                <br><br>
+                <label for="IA">Cual IA quieres valorar</label>
+                <select name="IA">
+                    <option value="ChatGPT">ChatGPT</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Claude">Claude</option>
+                </select>
+                <br><br>
+                <label for="valoracion">Com valores aquesta IA?</label>
+                <br><br>
+                <input type="radio" name="valoracion" value="Excelente">Excelente
+                <input type="radio" name="valoracion" value="Buena">Buena
+                <input type="radio" name="valoracion" value="Mejorable">Mejorable
+                <br><br>
+                <label for="comentario">Comentario:</label>
+                <br>
+                <textarea name="comentario" cols="40" rows="4" placeholder="Escribe aqui tus comentarios"></textarea>
+                <br>
+                <br><input type="checkbox" name="spam"> 
+                <label for="spam">Quieres recibir novedades sobre la IA?</label>
+                <br><br>
+                <input type="submit" name="Enviar" value="Enviar">
+            </form>
+        </section>
     </main>
     <footer></footer>
 </body>
