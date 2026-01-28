@@ -1,0 +1,16 @@
+body {
+    background-color: #222;
+    color: #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 30px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #CCC;
+}
