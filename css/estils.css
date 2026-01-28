@@ -11,6 +11,24 @@ ul {
     list-style-type: none;
 }
 
-a {
+li a {
     color: #CCC;
+}
+
+.p1::first-letter {
+    font-size: 32px;
+}
+
+.fuente {
+    color: green;
+    text-decoration-line: overline;
+}
+
+.fuente:hover {
+    color: orange;
+    text-decoration-line: overline;
+}
+
+.fuente:visited {
+    color: pink;
 }
